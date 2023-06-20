@@ -7,6 +7,6 @@ int main()
     printf("Enter a number : ");
     scanf("%d",&x);
     y=x/10;
-    printf("Unit digit of %d is %d",x,y);
+    printf("without last digit of %d is %d",x,y);
     return 0;
 }
