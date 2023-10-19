@@ -10,7 +10,7 @@ int main()
 
     b = a % 10 ;    // b = 123 % 10 = 3
     c = a / 10 ;    // c = 123 / 10 = 12
-    d = 3 * 100 + c ;  // d = 300 + 12 = 312
+    d = b * 100 + c ;  // d = 300 + 12 = 312
 
     printf("digit = %d and Resulting = %d", a , d);
 
